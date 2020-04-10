@@ -19,12 +19,10 @@ class ProDocumentWorker : DocumentWorker
     public override void EditDocument()
     {
         Console.WriteLine("Document has been changed");
-        base.EditDocument();
     }
     public override void SaveDocument()
     {
         Console.WriteLine("Document has been saved in last format, you can save others in expert version");
-        base.SaveDocument();
     }
 }
 class ExpertDocumentWorker : ProDocumentWorker
@@ -32,7 +30,6 @@ class ExpertDocumentWorker : ProDocumentWorker
     public override void SaveDocument()
     {
         Console.WriteLine("Document has been saved in new format");
-        base.SaveDocument();
     }
 }
 class PlayMusic : IPlayable

@@ -26,7 +26,6 @@ namespace DocWorker
             Player();
             Console.Clear();
             Recorder();
-            Console.ReadKey();
         }
         static void Player()
         {
@@ -35,7 +34,7 @@ namespace DocWorker
             while (chk)
             {
                 Console.WriteLine("You are in music player");
-                Console.WriteLine("1 for play\n2 for pause\n 3 for stop\n 4 for exit");
+                Console.WriteLine("1 for play\n2 for pause\n3 for stop\n4 for exit");
                 int chs = int.Parse(Console.ReadLine());
                 switch (chs)
                 {
@@ -57,7 +56,7 @@ namespace DocWorker
             while (chk)
             {
                 Console.WriteLine("You are in music recorder");
-                Console.WriteLine("1 for record\n2 for pause\n 3 for stop\n 4 for exit");
+                Console.WriteLine("1 for record\n2 for pause\n3 for stop\n4 for exit");
                 int chs = int.Parse(Console.ReadLine());
                 switch (chs)
                 {
@@ -78,7 +77,6 @@ namespace DocWorker
             DocumentWorker dw = new DocumentWorker();
             while (chk)
             {
-                Console.Clear();
                 Console.WriteLine("You are in Base access");
                 Console.WriteLine("1 for open file\n2 for edit\n3 for save\n4 for exit");
                 int chs = int.Parse(Console.ReadLine());
@@ -113,7 +111,6 @@ namespace DocWorker
             DocumentWorker pdw = new ProDocumentWorker();
             while (chk)
             {
-                Console.Clear();
                 Console.WriteLine("You are in Pro access");
                 Console.WriteLine("1 for open file\n2 for edit\n3 for save\n4 for exit");
                 int chs = int.Parse(Console.ReadLine());
@@ -148,8 +145,7 @@ namespace DocWorker
             DocumentWorker edw = new ExpertDocumentWorker();
             while (chk)
             {
-                Console.Clear();
-                Console.WriteLine("You are in Base access");
+                Console.WriteLine("You are in Exert access");
                 Console.WriteLine("1 for open file\n2 for edit\n3 for save\n4 for exit");
                 int chs = int.Parse(Console.ReadLine());
                 switch (chs)
