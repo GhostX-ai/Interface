@@ -1,0 +1,13 @@
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\bin\Debug\netcoreapp3.1\DocWorker.exe
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\bin\Debug\netcoreapp3.1\DocWorker.deps.json
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\bin\Debug\netcoreapp3.1\DocWorker.runtimeconfig.json
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\bin\Debug\netcoreapp3.1\DocWorker.runtimeconfig.dev.json
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\bin\Debug\netcoreapp3.1\DocWorker.dll
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\bin\Debug\netcoreapp3.1\DocWorker.pdb
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\obj\Debug\netcoreapp3.1\DocWorker.csprojAssemblyReference.cache
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\obj\Debug\netcoreapp3.1\DocWorker.csproj.CoreCompileInputs.cache
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\obj\Debug\netcoreapp3.1\DocWorker.AssemblyInfoInputs.cache
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\obj\Debug\netcoreapp3.1\DocWorker.AssemblyInfo.cs
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\obj\Debug\netcoreapp3.1\DocWorker.dll
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\obj\Debug\netcoreapp3.1\DocWorker.pdb
+C:\Users\GhostX\Desktop\c#Projects\DocWorker\obj\Debug\netcoreapp3.1\DocWorker.genruntimeconfig.cache
