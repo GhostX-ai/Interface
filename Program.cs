@@ -23,7 +23,54 @@ namespace DocWorker
                 BaseAccess();
             }
             Console.Clear();
+            Player();
+            Console.Clear();
+            Recorder();
             Console.ReadKey();
+        }
+        static void Player()
+        {
+            bool chk = true;
+            PlayMusic pl = new PlayMusic();
+            while (chk)
+            {
+                Console.WriteLine("You are in music player");
+                Console.WriteLine("1 for play\n2 for pause\n 3 for stop\n 4 for exit");
+                int chs = int.Parse(Console.ReadLine());
+                switch (chs)
+                {
+                    case 1:
+                        pl.Play(); break;
+                    case 2:
+                        pl.Pause(); break;
+                    case 3:
+                        pl.Stop(); break;
+                    case 4:
+                        chk = false; break;
+                }
+            }
+        }
+        static void Recorder()
+        {
+            bool chk = true;
+            RecordMusic rd = new RecordMusic();
+            while (chk)
+            {
+                Console.WriteLine("You are in music recorder");
+                Console.WriteLine("1 for record\n2 for pause\n 3 for stop\n 4 for exit");
+                int chs = int.Parse(Console.ReadLine());
+                switch (chs)
+                {
+                    case 1:
+                        rd.Record(); break;
+                    case 2:
+                        rd.Pause(); break;
+                    case 3:
+                        rd.Stop(); break;
+                    case 4:
+                        chk = false; break;
+                }
+            }
         }
         static void BaseAccess()
         {

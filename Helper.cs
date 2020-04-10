@@ -35,3 +35,47 @@ class ExpertDocumentWorker : ProDocumentWorker
         base.SaveDocument();
     }
 }
+class PlayMusic : IPlayable
+{
+    public void Pause()
+    {
+        Console.WriteLine("I've paused music");
+    }
+
+    public void Stop()
+    {
+        Console.WriteLine("I've stopped music");
+    }
+    public void Play()
+    {
+        Console.WriteLine("I'm playing music");
+    }
+}
+class RecordMusic : IRecordable
+{
+    public void Pause()
+    {
+        Console.WriteLine("I've paused music");
+    }
+
+    public void Stop()
+    {
+        Console.WriteLine("I've stopped music");
+    }
+    public void Record()
+    {
+        Console.WriteLine("I'm recording");
+    }
+}
+interface IPlayable
+{
+    void Play();
+    void Pause();
+    void Stop();
+}
+interface IRecordable
+{
+    void Record();
+    void Pause();
+    void Stop();
+}
